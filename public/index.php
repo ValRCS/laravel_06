@@ -1,4 +1,5 @@
 <?php
+require '../vendor/autoload.php'; //to find automatically vendor libraries
 echo "Hello there";
 
 use Monolog\Handler\StreamHandler;
